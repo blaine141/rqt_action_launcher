@@ -1,0 +1,17 @@
+<library path="src">
+  <class name="Action Launcher" type="rqt_action_launcher.action_launcher.ActionLauncher" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      A Python GUI plugin for launching actions and interfacing with action servers.
+    </description>
+    <qtgui>
+      <group>
+        <label>Actions</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to ROS actions.</statustip>
+      </group>
+      <label>Action Launcher</label>
+      <icon type="theme">media-playback-start</icon>
+      <statustip>A Python GUI plugin for launching actions and interfacing with action servers.</statustip>
+    </qtgui>
+  </class>
+</library>
