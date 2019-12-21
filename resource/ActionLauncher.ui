@@ -15,7 +15,7 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QTreeWidget" name="topics_tree_widget">
+    <widget class="QTreeWidget" name="actions_tree_widget">
      <property name="contextMenuPolicy">
       <enum>Qt::CustomContextMenu</enum>
      </property>
@@ -33,27 +33,7 @@
       </property>
      <column>
       <property name="text">
-       <string>Topic</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Type</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Bandwidth</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Hz</string>
-      </property>
-     </column>
-     <column>
-      <property name="text">
-       <string>Value</string>
+       <string>Name</string>
       </property>
      </column>
     </widget>
