@@ -1,7 +1,7 @@
 import os
 import rospy
 import rospkg
-import roslib
+import roslib.message
 import actionlib
 
 from qt_gui.plugin import Plugin
